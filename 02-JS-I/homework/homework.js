@@ -60,7 +60,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  return x==y
+  return x===y
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -69,7 +69,7 @@ function tienenMismaLongitud(str1, str2) {
   // Tu código:
   x=str1.length
   y=str2.length
-  return x==y
+  return x===y
 }
 
 function menosQueNoventa(num) {
@@ -96,14 +96,14 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  return num%2==0
+  return num%2===0
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  return num%2==1
+  return num%2===1
 }
 
 function elevarAlCuadrado(num) {
@@ -216,13 +216,13 @@ function esVocal(letra){
   //Escribe tu código aquí
   if (letra=='a')
     x='Es vocal'
-    else if (letra=='e')
+    else if (letra==='e')
     x='Es vocal'
-    else if (letra=='i')
+    else if (letra==='i')
     x='Es vocal'
-    else if (letra=='o')
+    else if (letra==='o')
     x='Es vocal'
-    else if (letra=='u')
+    else if (letra==='u')
     x='Es vocal'
     else 
     x='Dato incorrecto'
