@@ -13,7 +13,7 @@ const nuevoBool = 9<4;
 const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * 4 === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40;
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
@@ -67,8 +67,8 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  x=str1.length
-  y=str2.length
+  x=str1.length;
+  y=str2.length;
   return x===y
 }
 
@@ -149,11 +149,11 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if (numero>0)
-     x='Es positivo'
+     x='Es positivo';
     else if (numero<0)
-     x='Es negativo'
+     x='Es negativo';
     else 
-     x=false
+     x=false;
   return x
 }
 
@@ -203,7 +203,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  DolaresPorEuro=1.2
+  DolaresPorEuro=1.2;
   return euro*DolaresPorEuro
 }
 
@@ -215,17 +215,17 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if (letra=='a')
-    x='Es vocal'
+    x='Es vocal';
     else if (letra==='e')
-    x='Es vocal'
+    x='Es vocal';
     else if (letra==='i')
-    x='Es vocal'
+    x='Es vocal';
     else if (letra==='o')
-    x='Es vocal'
+    x='Es vocal';
     else if (letra==='u')
-    x='Es vocal'
+    x='Es vocal';
     else 
-    x='Dato incorrecto'
+    x='Dato incorrecto';
   return x
 }
 
